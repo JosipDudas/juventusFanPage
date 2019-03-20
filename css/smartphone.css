@@ -1,0 +1,734 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+
+.dio_naslov h2{
+    text-size-adjust: 400%;
+}
+
+.navigacija {
+    display: none;
+}
+
+.naslovMob{
+    display: inline-block;
+    width: 100%;
+    height: 8%;
+    margin:0 auto;
+    background-color:black;
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    text-align:center;
+	opacity:0.7;
+}
+
+#mennu{
+    display: block;
+    float: right;
+    padding-right: 2%;
+    width: 10%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.hamburger{
+    display: block;
+    width: 100%;
+    height: 14%;
+    background-color: white;
+    margin: 20% 0;
+}
+
+#navigacijaMob{
+    float: right;
+    height: 50%;
+    width: 50%;
+    background-color: black;
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    opacity: 0.7
+}
+
+#navigacijaMob ul li{
+    cursor: pointer;
+    z-index: 50;
+    font-size: 500%;
+    text-align: center;
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    opacity: 0.7;
+}
+
+#navigacijaMob a{
+    display:inline-block;
+    padding:0.50%;
+    text-decoration:none;
+    text-align: right;
+	font-size: 102%;
+	color:white;
+	font-family: Verdana, Geneva, sans-serif;
+	cursor: pointer;
+}
+
+.naslovnica{
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    background-image:url("../images/juventus.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 50%;
+    background-position:center; 
+}
+
+/*Novosti smartphone*/
+.novosti {
+    width:100%;
+    height:100%;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.9) 100%), url("../images/juve.jpg");
+    background-size:auto;
+    background-position:center;
+}
+
+.clanci {
+    width:85%;
+	margin:0 auto;
+	height:90%;
+	padding-top:10%;
+}
+    
+
+.naslov{
+    padding-bottom:5%;
+    font-size: 350%;
+}
+
+.podnaslov{
+    padding-top:5%;
+    padding-bottom:5%;
+}
+
+.article p{
+    color:#b2b2b2;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size:280%;
+    text-align:left;
+}
+
+.write{
+    color:#b2b2b2;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size:280%;
+    text-align:left;
+}
+
+#twitter-widget-0{ 
+    margin: auto; 
+}
+
+#btnClick{
+    text-size-adjust: 300%;
+    padding-bottom: 6%;
+}
+
+#vise{
+    height: 10%;
+}
+
+/*Momcad smartphone*/
+.momcad{
+	width:100%;
+	margin:0 auto;
+	height:100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.9) 100%), url("../images/room.jpg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    overflow: auto;
+}
+
+.momcad_naslov{
+	padding-top:10%;
+	padding-bottom:10%;
+    width:100%;
+}
+
+.naslovi {
+    width: 100%;
+}
+
+table{
+    margin: 0 auto;
+	color:#b2b2b2;
+	font-size:20px;
+	font-family: Verdana, Geneva, sans-serif;
+	border:3px solid #b2b2b2;
+	border-collapse:collapse;
+    width:100%;
+    height: 50%;
+}
+
+th{
+    cursor:pointer;
+    text-size-adjust: 170%;
+}
+
+.naslovi h3 {
+    text-size-adjust: 300%;
+}
+
+.pozicija{
+	padding-top:150px;  
+    position:relative;
+    width:100%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.momcad_naslov{
+	cursor: pointer;
+}
+
+#nazad{
+    text-size-adjust: 400%;
+}
+
+#igraci{
+	padding-left: 250px;
+	padding-top: 50px;
+}
+
+#stozer_pozition{
+    position:relative;
+    width:100%;
+    height: 80%;
+}
+
+#stozer{
+    position: absolute;
+    height: 70%;
+    width: 45%;
+}
+
+.container_stozer{
+    width:100%;
+    height:70%;
+    margin: 0 auto;
+}
+
+#golman{
+    height: 80%;
+}
+
+#golman_position{
+    position: relative;
+    max-width: 1000px;
+    width: 100%;
+    height: 85%;
+    margin: 0 auto;
+}
+
+.container_golmani{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 60%;
+}
+
+#obran{
+    height: 80%;
+}
+
+#obrana{
+    display: block;
+    position: inherit;
+    max-width: 1080px;
+    width: 100%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+#obrana2{
+    display: block;
+    position: inherit;
+    max-width: 1080px;
+    width: 100%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+#obrana3{
+    display: block;
+    position: inherit;
+    max-width: 1080px;
+    width: 100%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+.container_obrana{
+    position: relative;
+    width: 100%;
+    height: 60%;
+}
+
+#vezni_red{
+    display: block;
+    position: inherit;
+    max-width: 1080px;
+    width: 100%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+#vezni_red2{
+    display: block;
+    position: inherit;
+    max-width: 1080px;
+    width: 100%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+#vezni_red3{
+    display: block;
+    position: inherit;
+    max-width: 1080px;
+    width: 100%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+.container_veza{
+    position: relative;
+    width: 100%;
+    height: 60%;
+}
+
+#napad{
+    display: block;
+    position: inherit;
+    max-width: 1080px;
+    width: 100%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+#napad2{
+    display: block;
+    position: inherit;
+    max-width: 1080px;
+    width: 100%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+.container_napad{
+    position: relative;
+    width: 100%;
+    height: 60%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: #b2b2b2;
+    font-size: 350%;
+    font-family: Verdana, Geneva, sans-serif;
+    padding: 0%;
+    text-align: center;
+}
+
+.container_stozer:hover .overlay {
+  opacity: 1;
+}
+
+.container_golmani:hover .overlay {
+  opacity: 1;
+}
+
+.container_obrana:hover .overlay {
+  opacity: 1;
+}
+
+.container_veza:hover .overlay {
+  opacity: 1;
+}
+
+.container_napad:hover .overlay {
+  opacity: 1;
+}
+
+.zoomIgraci{
+    padding: 20px;
+    transition: transform .2s; /* Animation */
+    height:430px;
+	width:280px;
+    margin: 0 auto;
+	cursor: pointer;
+}
+
+.zoomIgraci:hover {
+    transform: scale(1.3); 
+}
+
+.zoom {
+    padding: 50px;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.foot{
+    height:400px;
+    clear:both;
+    width:100%;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.9) 100%), url("../images/footer.jpg");
+    background-size:auto;
+    background-position:center;
+}
+
+.page_footer{
+    color:#b2b2b2;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align:center;
+	display:block;
+    bottom:0px;
+    right:0;
+    text-align:center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    display: none;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/*Utakmice*/
+#utakmice {
+    width:100%;
+    height:100%;
+    background-color:black;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.3) 100%), url("../images/store.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center; 
+}
+
+#omotac_utakmice{
+     width:80%;
+     height:80%;
+     margin:0 auto;
+}
+
+#omotac_gotove{
+     width:100%;
+     height:48%;
+     margin:0 auto;
+     background-color: #adb0b5;
+     opacity:0.7;
+     overflow: auto;
+}
+
+#razmak{
+    width:100%;
+    height:5%;
+}
+
+#omotac_nadolazece{
+     width:100%;
+     height:48%;
+     margin:0 auto;
+     background-color: #adb0b5;
+     opacity:0.7;
+     overflow: auto;
+     float: left;
+}
+
+.prva {
+    margin-bottom: 15px;
+    padding: 4px 12px;
+    background-color: #292d33;
+    border-left: 6px solid #0e0e0f;
+}
+
+
+/*Ulaznice */
+
+#ulaznice.keyboard-up { 
+    position: absolute; 
+}
+
+#ulaznice{
+    width:100%;
+    height:100%;
+    background-color:black;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.3) 100%), url("../images/ulaznice.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center; 
+}
+
+#ulazzz{
+    text-size-adjust: 400%;
+}
+
+span.psw {
+    display: block;
+    float: none;
+    padding-right: 2%;
+ }
+ .cancelbtn {
+    width: 100%;
+ }
+
+ #login{
+     height: 90%;
+     width: 90%;
+     margin: 0 auto;
+     display: flex;
+}
+
+label b{
+     text-size-adjust: 400%;
+}
+
+#lozinka{
+    color: white;
+    font-family: Verdana, Geneva, sans-serif;
+    text-size-adjust: 250%;
+}
+
+button{
+    width: 100%;
+    height: 5%;
+    text-size-adjust: 250%;
+}
+
+input{
+    text-size-adjust: 250%;
+    width: 100%;
+    padding: 2% 4%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    height: 5%;
+}
+
+form{
+    margin:auto;
+    width:100%;
+    height: 95%;
+}
+
+.reg{
+    width: 100%;
+    padding: 2% 4%;
+    background-color: black;
+    float: none;
+}
+
+.container p {
+    text-size-adjust: 200%;
+}
+
+#uvjet h3, p {
+    text-size-adjust: 200%;
+}
+
+#loz{
+    margin:auto;
+    width:90%;
+    height: 90%;
+}
+
+#registration{
+    margin:auto;
+    width:90%;
+    height: 90%;
+}
+
+.izadji{
+    text-size-adjust: 250%;
+    width: 100%;
+    padding: 2% 4%;
+    background-color: black;
+    float: none;
+}
+
+/*Yutube kanal*/
+
+#video {
+    width:100%;
+    height:100%;
+    background-color:black;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.3) 100%), url("../images/zebra.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center; 
+}
+
+#kanal{
+    text-size-adjust: 400%;
+}
+
+#youtube{
+    padding-top: 50%;
+    width:90%;
+    height: 30%;
+	margin:0 auto;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+    margin:0 auto;
+}
+
+/*Fanovi*/
+
+#fanovi{
+    width:100%;
+    height:100%;
+    background-color:black;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.3) 100%), url("../images/fans.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center; 
+}
+
+#fan{
+    text-size-adjust: 400%;
+}
+
+#povecanaSlika {
+    height: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50%;
+}
+
+
+/*Povijest */
+
+#povijest{
+    width:100%;
+    height:100%;
+    background-color:black;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.3) 100%), url("../images/storia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center; 
+}
+
+#pov{
+    text-size-adjust: 400%;
+}
+
+#povOkvir{
+    width:90%;
+    height: 90%;
+	margin:0 auto;
+	padding-top:20px;
+}
+
+#povTekst{
+    width:65%;
+    height: 90%;
+	margin:0 auto;
+	padding-top:20px;
+	float:left;
+    overflow: auto;
+}
+
+#osnovniPodaci{
+    width:30%;
+    height: 90%;
+	margin:0 auto;
+	padding-top:20px;
+	padding-right:20px;
+	float:left;
+}
+
+#povTekst p{
+	font-size:150%;
+    text-align:left;
+	color:white;
+}
+
+#povTekst ul li{
+	font-family: Verdana, Geneva, sans-serif;
+    font-size:150%;
+    text-align:left;
+	color:white;
+}
+
+#povTekst h4{
+	font-family: Verdana, Geneva, sans-serif;
+    text-align:left;
+    color:white;
+    font-size: 200%;
+}
+
+#osnovniPodaci p{
+	font-size:150%;
+    text-align:left;
+	color:white;
+}
+
+#osnovniPodaci ul li{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:150%;
+    text-align:left;
+	color:white;
+}
+
+#osnovniPodaci h5{
+	font-family: Verdana, Geneva, sans-serif;
+    text-align:left;
+    color:white;
+    font-size: 200%;
+}
+
+#osnovniPodaci h4{
+    font-family: Verdana, Geneva, sans-serif;
+    
+    text-align:left;
+    color:white;
+    font-size: 200%;
+}

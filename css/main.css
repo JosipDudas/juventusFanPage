@@ -1,0 +1,1134 @@
+/*Osnovne informacije*/
+*{
+	margin:0px;
+	padding:0px;
+	list-style-type:none; /* Bez točaka kod liste */
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+
+header, nav, article, section, footer {
+	display: block; /* Kako bi svi browseri prikazali podatke kao blokove */
+}
+
+h2{
+	color:#b2b2b2;
+	font-family: Verdana, Geneva, sans-serif;
+    padding-bottom:2%;
+	text-align:center;
+}
+
+h3{
+	color:#b2b2b2;
+	font-family: Verdana, Geneva, sans-serif;
+    padding-bottom:2%;
+	text-align:center;
+}
+
+h4{
+	color:#b2b2b2;
+	font-family: Verdana, Geneva, sans-serif;
+    padding-bottom:2%;
+	text-align:justify;
+}
+
+p{
+	color:#b2b2b2;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 100%;
+	padding-bottom:5%;
+	text-align:left;
+}
+
+.dio_naslov{
+    padding-top:3%;
+	padding-bottom: 4%;
+    width:100%;
+    height: 5%;
+}
+
+.navigacija a{
+    display:inline-block;
+    padding:0.50%;
+	text-decoration:none;
+	font-size:20px;
+	color:white;
+	font-family: Verdana, Geneva, sans-serif;
+	cursor: pointer;
+}
+
+.navigacija a:hover{
+	background-color: #aeb0b2;
+}
+
+.navigacija {
+    background-color:black;
+    position:fixed;
+    width: 100%;
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    z-index:99;
+	opacity:0.7;
+}
+
+.naslovnica{
+    width:100%;
+    height:100%;
+    background-color:black;
+    background-image:url("../images/juventus.jpg");
+    background-repeat: no-repeat;
+    background-size:950px 800px;
+    background-position:center; 
+}
+
+#navigacijaMob{
+    display: none;
+}
+
+#hamburger{
+    display: none;
+}
+
+.navigacija ul li{
+    display:inline;
+	cursor: pointer;
+}
+
+#odjava{
+    display: none;
+}
+
+/*Novosti css*/
+.novosti {
+    width:100%;
+    height:100%;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.9) 100%), url("../images/juve.jpg");
+    background-size:auto;
+    background-position:center;
+}
+
+#btnClick{
+    background-color: rgb(85, 84, 92);
+    border: none;
+    color: white;
+    padding: 2% 2%;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.clanci {
+    width:50%;
+	margin:0 auto;
+	height:85%;
+    padding-top:5%;
+    overflow: auto;
+}
+
+.naslov{
+    padding-bottom:5%;
+}
+
+.podnaslov{
+    padding-top:5%;
+    padding-bottom:5%;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size:130%;
+    text-align:left;
+}
+
+#jos{
+    cursor:pointer;
+}
+
+.write{
+    color:#b2b2b2;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size:70%;
+    padding-bottom: 5%;
+    text-align:left;
+}
+
+/*Momčad css*/
+.momcad{
+	width:100%;
+	margin:0 auto;
+	height:100%;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.9) 100%), url("../images/room.jpg");
+    background-size: cover;
+	background-position:center;
+}
+
+.momcad_naslov{
+	padding-top:5%;
+    width:100%;
+}
+
+.naslovi{
+    width:100%;
+}
+
+table{
+    margin: 0 auto;
+	color:#b2b2b2;
+	font-size:20px;
+	font-family: Verdana, Geneva, sans-serif;
+	border:3px solid #b2b2b2;
+	border-collapse:collapse;
+    width:100%;
+}
+
+th{
+	padding:100px;
+    cursor:pointer;
+}
+
+.pozicija{
+	padding-top:150px;  
+    position:relative;
+    max-width: 1400px;
+    width:100%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.momcad_naslov{
+	cursor: pointer;
+}
+
+#igraci{
+	padding-left: 250px;
+	padding-top: 50px;
+}
+
+#stozer_pozition{
+    position:relative;
+    width:100%;
+}
+
+#stozer{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.container_stozer{
+    position:relative;
+    width:328px;
+    height:492px;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#golman_position{
+    position:relative;
+    max-width: 1000px;
+    width:100%;
+    height:492px;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.container_golmani{
+    position:relative;
+    float:left;
+    width:328px;
+    height:492px;
+}
+
+#obrana{
+    position:relative;
+    max-width: 1080px;
+    width:100%;
+    height:492px;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#obrana2{
+    display: none;
+    position:relative;
+    max-width: 1080px;
+    width:100%;
+    height:492px;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#obrana3{
+    display: none;
+    position:relative;
+    max-width: 752px;
+    width:100%;
+    height:492px;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.container_obrana{
+    position:relative;
+    float:left;
+    width:328px;
+    height:492px;
+}
+
+#vezni_red{
+    position:relative;
+    max-width: 1080px;
+    width:100%;
+    height:492px;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#vezni_red2{
+    display: none;
+    position:relative;
+    height:492px;
+    max-width: 1080px;
+    width:100%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#vezni_red3{
+    display: none;
+    position:relative;
+    height:492px;
+    max-width: 424px;
+    width:100%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.container_veza{
+    position:relative;
+    float:left;
+    width:328px;
+    height:492px;
+}
+
+#napad{
+    position:relative;
+    height:492px;
+    max-width: 1080px;
+    width:100%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#napad2{
+    display: none;
+    position:relative;
+    height:492px;
+    max-width: 752px;
+    width:100%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.container_napad{
+    position:relative;
+    float:left;
+    width:328px;
+    height:492px;
+}
+
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color:#b2b2b2;
+	font-size:20px;
+	font-family: Verdana, Geneva, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+.container_stozer:hover .overlay {
+  opacity: 1;
+}
+
+.container_golmani:hover .overlay {
+  opacity: 1;
+}
+
+.container_obrana:hover .overlay {
+  opacity: 1;
+}
+
+.container_veza:hover .overlay {
+  opacity: 1;
+}
+
+.container_napad:hover .overlay {
+  opacity: 1;
+}
+
+.zoomIgraci{
+    transition: transform .2s; /* Animation */
+    height:91%;
+	cursor: pointer;
+}
+
+.zoomIgraci:hover {
+    transform: scale(1.3); 
+}
+
+.zoom {
+    padding: 50px;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: relative;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #b2b2b2;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    float:left;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/*Utakmice*/
+#utakmice {
+    width:100%;
+    height:100%;
+    background-color:black;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.3) 100%), url("../images/store.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center; 
+}
+
+#omotac_utakmice{
+     width:80%;
+     height:80%;
+     margin:0 auto;
+}
+
+#omotac_gotove{
+     width:45%;
+     height:80%;
+     margin:0 auto;
+     background-color: #adb0b5;
+     opacity:0.7;
+     overflow: auto;
+     float: left;
+}
+
+#razmak{
+    float:left;
+    width:10%;
+    height:80%;
+}
+
+#omotac_nadolazece{
+     width:45%;
+     height:80%;
+     margin:0 auto;
+     background-color: #adb0b5;
+     opacity:0.7;
+     overflow: auto;
+     float: left;
+}
+
+.prva {
+    margin-bottom: 15px;
+    padding: 4px 12px;
+    background-color: #292d33;
+    border-left: 6px solid #0e0e0f;
+}
+
+/*Ulaznice css*/
+#ulaznice{
+    width:100%;
+    height:100%;
+    background-color:black;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.3) 100%), url("../images/ulaznice.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center; 
+}
+
+#login, #registration{
+    height: 80%;
+    width: 40%;
+    margin: 0 auto;
+}
+
+#zabLozinka, #uvjeti{
+    cursor: pointer;
+}
+
+#loz{
+    height: 40%;
+    width: 40%;
+    margin: 0 auto;
+}
+
+#prikazUvjeta{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#uvjet{
+    margin: 0 auto;
+    background-color: black;
+    height: 100%;
+    width: 50%;
+    padding-top: 6%;
+    overflow: auto;
+}
+
+#uvjet h3, p{
+    padding: 2% 2%;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+}
+
+input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 2% 4%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+label b, #lozinka{
+    color: white;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+button {
+    background-color: #5a5a5b;
+    color: white;
+    font-family: Verdana, Geneva, sans-serif;
+    padding: 2% 4%;
+    margin: 1% 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 2% 4%;
+    background-color: black;
+}
+
+.slika {
+    text-align: center;
+    margin: 4% 0 4% 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 1%;
+}
+
+.container p{
+    padding-top: 1%;
+    padding-bottom: 0%;
+    color: white;
+}
+
+span.psw {
+    float: right;
+    padding-top: 2%;
+}
+
+span.rpsw {
+    float: right;
+    padding-top: 2%;
+}
+
+.reg{
+    float: right;
+    width: auto;
+    padding: 2% 4%;
+    background-color: black;
+}
+
+.izadji{
+    float: right;
+    width: auto;
+    padding: 2% 4%;
+    background-color: black;
+}
+
+#greska{
+    color: white;
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+}
+
+#omotUtak{
+    width:80%;
+    height:80%;
+    margin:0 auto;
+}
+
+#profilInf{
+    width: 50%;
+    height: 90%;
+    margin: 0 auto;
+    background-color: white;
+    opacity: 0.8;
+    float: left;
+    overflow: auto;
+}
+
+
+#ulaz{
+    width: 50%;
+    height: 90%;
+    margin: 0 auto;
+    background-color: white;
+    opacity: 0.8;
+    float: left;
+}
+
+#omSlike{
+    padding: 2.5% 2.5%;
+    width: 20%;
+    height: 20%;
+    float: left;
+}
+
+#op{
+    color: black;
+}
+
+#uslike{
+    float: left;
+    width: 50%;
+}
+
+#kartee{
+    float: left;
+    width: 50%;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+p#oPod{
+    color: black;
+    font-size: 80%;
+}
+
+.custom-file-upload {
+    border: 1px solid #0e0e0f;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.cus-file-upload {
+    border: 1px solid #0e0e0f;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+#upload{
+    display: none;
+}
+
+#uPot{
+    border: 1px solid #0e0e0f;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+#subbmit{
+    display: none;
+}
+
+#lpot{
+    border: 1px solid #0e0e0f;
+    padding: 6px 12px;
+    cursor: pointer;
+    float: right;
+}
+
+#file-subbmit{
+    display: none;
+}
+
+#odabir{
+    width: 100%;
+    color: black;
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 0 auto;
+    padding-bottom: 3%;
+    float: left;
+}
+
+#mojeSlike{
+    width: 90%;
+    color: black;
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 0 auto;
+    padding-bottom: 3%;
+}
+
+#drzacSlike{
+    width: 100%;
+    height: 90%;
+    overflow: auto;
+}
+
+#drzacSlike h3{
+    padding-top: 5%;
+}
+
+#drzacKarata{
+    margin: 0 auto;
+    width: 95%;
+    height: 90%;
+    overflow: auto;
+}
+
+#overflow{
+    overflow: auto;
+}
+
+#drzacKarata h3{
+    padding-top: 5%;
+}
+
+#drzacKarata h4{
+    text-align: center;
+}
+
+#infKarte{
+    margin: 0 auto;
+    width: 95%;
+    border: 3px solid #f1f1f1;
+}
+
+#infKarte p{
+    padding-left: 2%;
+}
+
+#infKarte form{
+    border: none;
+}
+
+.fKarte{
+    padding-bottom: 5%;
+}
+
+#brKarata{
+    width: 15%;
+}
+
+#mSlike{
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 5%;
+}
+
+#oPodaci{
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 5%;
+    height: 90%;
+}
+
+#lpodaci b{
+    color: #0e0e0f;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.mySlike {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+    height: auto;
+    width: auto;
+}
+
+/* Create four equal columns that sits next to each other */
+.omMojeSlike {
+    height: auto;
+}
+
+#prikazSlike{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#izbrisii{
+    background-color: rgb(85, 84, 92);
+    border: none;
+    color: white;
+    padding: 2% 2%;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0 auto;
+    width: 100%;
+    float: right;
+    text-align: center;
+}
+
+.opSlike{
+    padding-top: 6%;
+    padding-bottom: 0%;
+    text-align: center;
+}
+
+#povecanaSlika{
+    margin: 0 auto;
+    height: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+}
+
+/*Video css*/
+#video {
+    width:100%;
+    height:100%;
+    background-color:black;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.3) 100%), url("../images/zebra.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center; 
+}
+
+#video header{
+    padding-top: 5%;
+    margin: 0 auto;
+    widows: 100%;
+}
+
+#youtube{
+    width:50%;
+    height: 80%;
+	margin:0 auto;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+    margin:0 auto;
+}
+
+/*Fanovi css*/
+#fanovi{
+    width:100%;
+    height:100%;
+    background-color:black;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.3) 100%), url("../images/fans.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center; 
+}
+
+.omoFans{
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.fans {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.omFanSlike {
+    -ms-flex: 25%; /* IE10 */
+    flex: 35%;
+    max-width: 49%;
+    padding: 0 4px;
+}
+
+.omFanSlike img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.logo{
+    height: 5%;
+    border-radius: 50%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .omFanSlike {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .omFanSlike {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+.pogledaj{
+    background-color: rgb(85, 84, 92);
+    border: none;
+    color: white;
+    padding: 2% 2%;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/*Povijest css*/
+#povijest{
+    width:100%;
+    height:100%;
+    background-color:black;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.3) 100%), url("../images/storia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center; 
+}
+
+#povOkvir{
+    width:55%;
+    height: 80%;
+	margin:0 auto;
+}
+
+#povTekst{
+    width:65%;
+    height: 90%;
+	margin:0 auto;
+	float:left;
+    overflow: auto;
+}
+
+#osnovniPodaci{
+    width:30%;
+    height: 90%;
+	margin:0 auto;
+	padding-right:20px;
+	float:left;
+}
+
+#povTekst p{
+	font-size:12px;
+    text-align:left;
+	color:white;
+}
+
+#povTekst ul li{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:12px;
+    text-align:left;
+	color:white;
+}
+
+#povTekst h4{
+	font-family: Verdana, Geneva, sans-serif;
+    text-align:left;
+	color:white;
+}
+
+#osnovniPodaci p{
+	font-size:12px;
+    text-align:left;
+	color:white;
+}
+
+#osnovniPodaci ul li{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:12px;
+    text-align:left;
+	color:white;
+}
+
+#osnovniPodaci h5{
+	font-family: Verdana, Geneva, sans-serif;
+    text-align:left;
+    color:white;
+    padding-bottom: 2%;
+}
+
+#osnovniPodaci h4{
+	font-family: Verdana, Geneva, sans-serif;
+    text-align:left;
+	color:white;
+}
+
+/* Footer */
+.foot{
+    height:400px;
+    clear:both;
+    width:100%;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.9) 100%), url("../images/footer.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+.page_footer{
+    color:#b2b2b2;
+	font-family: Verdana, Geneva, sans-serif;
+    display:block;
+    padding-top:7%;
+    text-align:center;
+}
+
+.tfi{
+    height: 40px;
+}
+
+.razmak{
+    width: 95px;
+    float: left;
+}
+
+.razmak a{
+    padding-left: 20px;
+}
+
+#drustveneMreze{
+    margin: 0 auto;
+    width: 285px;
+    padding: 5%;
+    padding-left: 85px;
+}
